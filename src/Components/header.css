@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tangerine", cursive;
+}
+section {
+  background-color: burlywood;
+}
+.HeaderSection {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.NavLinks ul {
+  display: flex;
+  list-style: none;
+  margin-left: 560px;
+  margin-top: 40px;
+}
+.NavLinks ul li {
+  margin-left: 10px;
+  letter-spacing: 1px;
+  color: brown;
+  font-weight: bold;
+}
+.LogoSection img {
+  width: 70px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.lastsec p {
+  text-align: center;
+  height: 10vh;
+  color: brown;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+}
